@@ -11,7 +11,7 @@ This project is a professional portfolio specifically developed for my applicati
 
 The site highlights my experience in Product Management with a focus on tangible metrics and measurable results. The portfolio is optimized to offer an excellent user experience and high performance on both desktop and mobile devices.
 
-**🔗 [View live project](https://brunosardinha-tpm.com)** | **[GitHub Repository](https://github.com/brunosard/ezad-tpm-application/)**
+**🔗 [View live project](https://brunosardinha-tpm.com)** | **[GitHub Repository](https://github.com/brunosard/ezad-tpm-application/tree/master)**
 
 ## 🛠️ Technologies Used
 
