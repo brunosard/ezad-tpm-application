@@ -19,8 +19,9 @@ jobs:
     - name: Install dependencies
       run: npm ci
       
-    - name: Build
+    - name: Build and Fix Paths
       run: npm run build
+      # O script de correção de caminhos já está incluído no comando build
       
     - name: Deploy via SFTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4

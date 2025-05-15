@@ -1,0 +1,21 @@
+# Serve files with correct MIME types
+AddType text/css .css
+AddType application/javascript .js
+
+# Enable rewrite engine
+RewriteEngine On
+
+# Ensure paths to CSS and JS files work correctly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.html [L,QSA]
+
+# Set proper headers for caching static assets
+<FilesMatch "\.(css|js|jpg|jpeg|png|gif|ico|svg|webp)$">
+  Header set Cache-Control "max-age=86400, public"
+</FilesMatch>
+
+# Allow cross-origin for fonts
+<FilesMatch "\.(ttf|otf|eot|woff|woff2)$">
+  Header set Access-Control-Allow-Origin "*"
+</FilesMatch>

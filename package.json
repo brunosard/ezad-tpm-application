@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build",
+    "dev": "next dev",
+    "build": "next build && node fix-paths.js",
+    "build:local": "next build",
+    "serve": "serve out",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "fix-paths": "node fix-paths.js"
   },
   "dependencies": {
     "framer-motion": "^12.11.3",
@@ -26,6 +29,7 @@
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
     "postcss": "^8.5.3",
+    "serve": "^14.2.4",
     "typescript": "^5"
   }
 }
