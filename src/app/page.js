@@ -121,14 +121,14 @@ export default function Home() {
               </p>
               
               <div className="flex flex-wrap gap-4 mb-12 animate-fade-in animation-delay-400">
-                <a href="#" className="btn-primary flex items-center gap-2">
+                <a href="Presentation Bruno Sardinha.mp4" className="btn-primary flex items-center gap-2" target="_blank" rel="noopener noreferrer">
                   <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                     <polygon points="5 3 19 12 5 21 5 3"></polygon>
                   </svg>
                   Watch the video
                 </a>
                 
-                <a href="#" className="btn-outline">
+                <a href="Resume Bruno Cesar Sardinha - 2025.pdf" className="btn-outline" target="_blank" rel="noopener noreferrer">
                   Download CV (PDF)
                 </a>
               </div>
@@ -507,7 +507,7 @@ export default function Home() {
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#ef4444" stroke="#ef4444" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="feather feather-heart">
                   <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
                 </svg>
-                <span className="text-xs text-text-tertiary dark:text-gray-500">and Windsurf by Bruno Sardinha | <a href="https://github.com/brunosard/ezad-tpm-application/" target="_blank" rel="noopener noreferrer" className="text-primary-500 hover:text-primary-600 transition">View on GitHub</a></span>
+                <span className="text-xs text-text-tertiary dark:text-gray-500">and Windsurf by Bruno Sardinha | <a href="https://github.com/brunosard/ezad-tpm-application/tree/master" target="_blank" rel="noopener noreferrer" className="text-primary-500 hover:text-primary-600 transition">View on GitHub</a></span>
               </div>
             </div>
           </div>
