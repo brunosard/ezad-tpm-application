@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="800px" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet">
+  <path fill="#C60A1D" d="M36 27a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V9a4 4 0 0 1 4-4h28a4 4 0 0 1 4 4v18z"></path>
+  <path fill="#FFC400" d="M0 12h36v12H0z"></path>
+  <path fill="#EA596E" d="M9 17v3a2 2 0 0 0 4 0v-3H9z"></path>
+  <path fill="#F4A2B2" d="M12 16h-2v1h2z"></path>
+  <path fill="#DD2E44" d="M10 16.5c0 .27.5.5 1 .5s1-.23 1-.5s-.45-.5-1-.5s-1 .23-1 .5z"></path>
+  <ellipse fill="#99AAB5" cx="11" cy="15.5" rx="1" ry=".5"></ellipse>
+  <ellipse fill="#99AAB5" cx="11" cy="14.5" rx="1" ry=".5"></ellipse>
+  <path fill="#EA596E" d="M12 14h-2v1h2z"></path>
+  <path fill="#FFAC33" d="M7 21h8v1H7z"></path>
+  <path fill="#99AAB5" d="M9 13H8v9h1zm5 0h-1v9h1z"></path>
+</svg>

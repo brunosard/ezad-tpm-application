@@ -1,0 +1,327 @@
+/* Custom Components for Tailwind CSS */
+
+/* Button components */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  border-radius: 9999px;
+  background: linear-gradient(to right, #0ea5e9, #8b5cf6);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.btn-primary:hover {
+  opacity: 0.9;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background: transparent;
+  border: 1px solid rgb(203, 213, 225);
+  color: rgb(15, 23, 42);
+  border-radius: 9999px;
+  transition: all 0.3s ease;
+}
+
+.dark .btn-outline {
+  border-color: rgb(71, 85, 105);
+  color: rgb(226, 232, 240);
+}
+
+.btn-outline:hover {
+  border-color: #0ea5e9;
+  color: #0ea5e9;
+}
+
+.btn-gradient {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: white;
+  border-radius: 9999px;
+  background: linear-gradient(to right, #0ea5e9, #8b5cf6);
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Card components */
+.glass-card {
+  position: relative;
+  border-radius: 0.75rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.dark .glass-card {
+  background-color: rgba(30, 41, 59, 0.7);
+  border-color: rgba(51, 65, 85, 0.2);
+}
+
+/* Typography components */
+.section-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  background: linear-gradient(to right, #0ea5e9, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+}
+
+@media (min-width: 768px) {
+  .section-title {
+    font-size: 2.5rem;
+  }
+}
+
+.section-title-underline {
+  display: block;
+  height: 0.25rem;
+  width: 5rem;
+  margin: 0 auto 1.5rem auto;
+  border-radius: 9999px;
+  background: linear-gradient(to right, #0ea5e9, #8b5cf6);
+}
+
+/* Animation utilities */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out forwards;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.5s ease-out forwards;
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeInRight {
+  from { transform: translateX(20px); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+
+/* Card modern with neomorphism */
+.card-modern {
+  background: var(--bg-primary);
+  border-radius: 16px;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.dark .card-modern {
+  background: #1e293b;
+  box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.3);
+}
+
+.card-modern:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.2);
+}
+
+/* Neumorphic card */
+.neumorphic-card {
+  background: var(--bg-primary);
+  border-radius: 16px;
+  box-shadow: 
+    8px 8px 16px rgba(0, 0, 0, 0.05), 
+    -8px -8px 16px rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
+}
+
+.dark .neumorphic-card {
+  background: #1e293b;
+  box-shadow: 
+    8px 8px 16px rgba(0, 0, 0, 0.3), 
+    -8px -8px 16px rgba(30, 41, 59, 0.4);
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+/* Card image container */
+.card-image-container {
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Profile image styling */
+.profile-circle-bg {
+  background: linear-gradient(135deg, var(--primary-light), var(--secondary-light));
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
+  left: -10px;
+  top: -10px;
+  border-radius: 50%;
+  z-index: 0;
+  animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* Accessibility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.skip-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px;
+  background-color: var(--primary);
+  color: white;
+  z-index: 1000;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+/* High contrast mode */
+.high-contrast {
+  --primary: #0000ff;
+  --primary-light: #0000ff;
+  --primary-dark: #0000ff;
+  --secondary: #ff0000;
+  --secondary-light: #ff0000;
+  --secondary-dark: #ff0000;
+  --text-primary: #000000;
+  --text-secondary: #000000;
+  --text-tertiary: #000000;
+  --bg-primary: #ffffff;
+  --bg-secondary: #f0f0f0;
+  --bg-tertiary: #e0e0e0;
+}
+
+.high-contrast.dark {
+  --primary: #00ffff;
+  --primary-light: #00ffff;
+  --primary-dark: #00ffff;
+  --secondary: #ff00ff;
+  --secondary-light: #ff00ff;
+  --secondary-dark: #ff00ff;
+  --text-primary: #ffffff;
+  --text-secondary: #ffffff;
+  --text-tertiary: #cccccc;
+  --bg-primary: #000000;
+  --bg-secondary: #101010;
+  --bg-tertiary: #202020;
+}
+
+.high-contrast button,
+.high-contrast a {
+  outline: 2px solid currentColor;
+}
+
+/* Animation delays */
+.animation-delay-200 {
+  animation-delay: 200ms;
+}
+
+.animation-delay-400 {
+  animation-delay: 400ms;
+}
+
+.animation-delay-600 {
+  animation-delay: 600ms;
+}
+
+.animate-fade-in-right {
+  animation: fadeInRight 0.5s ease-out forwards;
+}
+
+/* QR Code container */
+.qr-code-container {
+  transition: all 0.3s ease;
+}
+
+.qr-code-container:hover {
+  transform: scale(1.05);
+}
+
+/* Accessibility button */
+.accessibility-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.accessibility-button:hover {
+  background-color: var(--primary-light);
+  color: white;
+}
+
+.dark .accessibility-button {
+  background-color: #334155;
+  color: #e2e8f0;
+}
+
+.dark .accessibility-button:hover {
+  background-color: var(--primary);
+}

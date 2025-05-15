@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800px" height="800px" viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" role="img" class="iconify iconify--twemoji" preserveAspectRatio="xMidYMid meet">
+  <path fill="#009B3A" d="M36 27a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V9a4 4 0 0 1 4-4h28a4 4 0 0 1 4 4v18z"></path>
+  <path fill="#FEDF01" d="M32.728 18L18 29.124L3.272 18L18 6.876z"></path>
+  <circle fill="#002776" cx="17.976" cy="18" r="6.458"></circle>
+  <path fill="#CBE9D4" d="M13.475 16.378c-.089.06-.15.16-.15.266c0 .107.06.207.15.266c1.749 1.317 4.549 1.317 6.298 0c.089-.06.15-.16.15-.266c0-.107-.06-.207-.15-.266c-1.749-1.317-4.549-1.317-6.298 0zm-.816 3.143c-.035.033-.055.078-.055.125c0 .035.013.074.035.104c.894 1.19 3.142 2.038 5.636 2.038s4.742-.848 5.636-2.038c.022-.03.035-.069.035-.104c0-.047-.02-.092-.055-.125c-.906-1.079-3.209-1.85-5.616-1.85s-4.71.771-5.616 1.85z"></path>
+</svg>
